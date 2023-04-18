@@ -1,0 +1,89 @@
+p{
+    background:rgb(241, 241, 241);
+    size: 20px;
+}
+.World {
+    background: rgb(255, 255, 255);
+}
+.Word {
+    background: rgb(13, 0, 255);
+}
+.War {
+    background: rgb(255, 0, 0);
+    color:aliceblue;
+}
+body {
+    background: rgba(0, 0, 0, 0.289);
+    font-family: Montserrat;
+}
+.d1 {
+    background:rgba(219, 207, 207, 0.427)
+}
+.d2 {
+    background:rgba(236, 141, 243, 0.407)
+}
+.menu li  {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.719);
+}
+*{
+    box-sizing: border-box;
+}
+.menu {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex ;
+
+}
+ul {
+    display: flex ;
+}
+.forum {
+    background: rgba(140, 140, 140, 0.789);
+    width: 500px;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.615);
+    border-radius: 30px;
+}
+.form-hint {
+    display: block;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+.field {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 15px 20px;
+    border: 3px solid rgba(73, 73, 73, 0.466);
+    border-radius: 15px 20px;
+}
+.b1 {
+    display: block;
+    cursor: wait;
+}
+.textarea {
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 60px;
+    max-height: 200px;
+}
+.hide {
+    display: none;
+}
+#aud {
+    display: none;
+}

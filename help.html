@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+ <body>
+
+     <div class="forum">
+      <div class="form-row">
+         <span class="form-hint">Введите ваше имя</span>
+         <input type='text' class="field" placeholder="Иван Иванов" required>
+      </div>
+      <div class="form-row">
+        <span class="form-hint">Введите ваш email</span>
+        <input type='email' class="field" placeholder="ivan@gmail.com" required>
+
+    </div>
+      <div class="form-row">
+         <span class="form-hint">Ваш комментарий</span>
+         <textarea class="field textarea" placeholder="Здравствуйте..."></textarea>
+      </div>
+      
+       <button type="submit">Отправить</button> 
+       <button type="reset">Стереть всё</button>
+       <button type="button">Просто потыкай на меня</button> 
+                
+       <button onclick='changeColor()'>Поменять цвет</button>
+       <button onclick="changeBody()">Поменять фон</button>
+       <button type="button" >Текст</button>
+       <h1 onclick="changecolor" class="hide">ТЕКСТ</h1>
+       <button onclick="fun()">FFF</button>
+       <button onclick="sber()">Нажми на меня!!</button>
+    <div id="aud">
+       <audio controls="controls" src="music/masha.mp3">DJ</audio>
+       <audio controls="controls" src="music/barbariki.mp3">DJ2 </audio>
+    </div>
+       <button onclick="audio()">Список песен</button>
+     
+
+
+
+  <script src="script.js"></script>
+ </body>
+</html> 
